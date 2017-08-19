@@ -1,14 +1,4 @@
-#Site settings
-title: slim
-baseurl: "/slim"
-url: "http://syaning.com"
+name: Hank Quinlan, Horrible Cop
+markdown: kramdown
 
-#Build settings
-kramdown:
-  input: GFM
-permalink: pretty
-
-# Third-party services
-# just leave blank to disable it
-google_analytics:
-disqus_shortname:
+permalink: /blog/:year/:month/:day/:title
